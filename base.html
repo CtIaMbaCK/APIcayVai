@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Chatbot - CryBabies</title>
+    <script src="chat-scipt.js" defer></script>
+</head>
+<body class="show-chatbox">
+    <button class="chatbot-tog">
+        <span class="material-symbols-outlined">chat</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">robot_2</span>
+                <p>Xin chào ! <br> Tôi có thể giúp gì cho bạn ?</p>
+            </li>
+            <li class="chat outgoing">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, inventore.</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Câu hỏi của bạn..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+</body>
+
+</html>
